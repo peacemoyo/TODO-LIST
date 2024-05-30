@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "poppins" sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color: blue;
+    height:100vh;
+  
+
+}
+
+.heading{
+    text-align: center;
+    background-color: white;
+    padding:15px;
+    border-radius: 5px;
+    min-width: 350px;
+    max-width:450px;
+    margin: auto;
+   
+}
+
+.taskbar{
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding:20px;
+    min-width: 350px;
+    max-width:450px;
+    margin: auto;
+    margin-top: 20px;
+}
+.taskbar li{
+    padding:20px;
+    background-color: rgb(172, 171, 171);
+    margin:20px;
+    border-radius: 10px;
+}
+button{
+    min-width: 350px;
+    max-width:450px;
+    margin:auto;
+    background-color: rgb(255, 47, 47);
+    padding:12px 10px;
+    border:none;
+    border-radius: 5px;
+    margin-top:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
